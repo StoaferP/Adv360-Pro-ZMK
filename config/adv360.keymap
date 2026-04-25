@@ -70,13 +70,6 @@
             bindings = <&kp LG(LC(RIGHT))>;
             label = "WIN_NEXT_DESKTOP";
         };
-
-        macro_ver: macro_ver {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp RET>;
-            label = "MACRO_VER";
-        };
     };
 
     keymap {
